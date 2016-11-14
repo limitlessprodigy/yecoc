@@ -1600,7 +1600,7 @@
 			#main nav > * {
 				-moz-transition: opacity 0.2s ease, background-color 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease, background-color 0.2s ease-in-out;
-				-ms-transition: opacity 0.2s ease, background-color 0.2s ease-in-out;
+				-ms-transition:  opacity 0.2s ease, background-color 0.2s ease-in-out;
 				transition: opacity 0.2s ease, background-color 0.2s ease-in-out;
 				-moz-pointer-events: auto;
 				-webkit-pointer-events: auto;
