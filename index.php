@@ -15,7 +15,7 @@ if(empty($name)||empty($email)||empty($message)){
 $to = cartersanders15@gmail.com;
 $subject = "Contact form - " . $name;
 $body = "$name has completed the contact form with the email '$email'.\n\r" .
-  "Message: \n\r" . "$message";.
+  "Message: \n\r" . "$message";
 
 mail($to,$subject,$body,$email);
 
