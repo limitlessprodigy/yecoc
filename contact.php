@@ -1,6 +1,5 @@
 <?php
 if(!isset($_POST['submit'])){
-  echo "Nope! You need to submit the form before accessing the next page.";
 }
 $name = $_POST['name'];
 $email = $_POST['email'];
